@@ -16,7 +16,6 @@ pkgbase = mingw-w64-reflective-rapidjson
 	depends = mingw-w64-rapidjson
 	depends = reflective-rapidjson
 	optdepends = mingw-w64-boost: use Boost.Hana instead of code generator
-	optdepends = reflective-rapidjson-doc: API documentation
 	options = !buildflags
 	options = staticlibs
 	options = !strip
