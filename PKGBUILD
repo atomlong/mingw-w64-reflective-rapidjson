@@ -12,8 +12,7 @@ arch=('any')
 pkgdesc='Code generator for serializing/deserializing C++ objects to/from JSON using Clang and RapidJSON (mingw-w64)'
 license=('GPL')
 depends=('mingw-w64-crt' 'mingw-w64-c++utilities' 'mingw-w64-rapidjson' 'reflective-rapidjson')
-optdepends=("mingw-w64-boost: use Boost.Hana instead of code generator"
-            "$_name-doc: API documentation")
+optdepends=("mingw-w64-boost: use Boost.Hana instead of code generator")
 checkdepends=('mingw-w64-cppunit' 'mingw-w64-wine' 'mingw-w64-boost')
 makedepends=('mingw-w64-gcc' 'mingw-w64-cmake' 'ninja')
 url="https://github.com/Martchus/${_reponame}"
